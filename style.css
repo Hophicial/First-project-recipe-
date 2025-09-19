@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e5d8;
+}
+
+main {
+    max-width: 1440px;
+    /* border: 1px solid red; */
+    padding: 50px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.simple h1{
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: black;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.preparation{
+    background-color: #eacbda;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.preparation h4 {
+    color: #7a2d5c;
+    margin-left: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.preparation ul li {
+    margin-bottom: 10px;
+}
+
+.ingredients h4{
+    font-size: 20px;
+    color: #5a2d1f;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ingredients ul li{
+    margin-bottom: 10px;
+}
+
+.instructions h4{
+    font-size: 20px;
+    color: #5a2d1f;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.instructions ol li{
+    margin-bottom: 10px;
+}
+
+.nutrition h4 {
+    font-size: 20px;
+    color: #5a2d1f;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nutrition div {
+    display: flex;
+    align-items: center;
+}
+
+
+.calories, .carbs, .protein, .fat {
+    border-bottom: 0.2px solid rgb(209, 209, 209);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.quantity{
+    /* border: 1px solid red; */
+    font-weight: 700;
+    color: #5a2d1f;
+}
+
+.food-type{
+    /* border: 1px solid red; */
+    width: 30%;
+}
